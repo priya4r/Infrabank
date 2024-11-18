@@ -73,7 +73,8 @@
 }
 
 .btn.btn-primary {
-    background: var(--bs-primary) !important;
+    /*background: var(--bs-primary) !important;*/
+    background: #0f5132 !important;
     color: var(--bs-white) !important;
     font-family: 'Roboto', sans-serif;
     border: none;
@@ -954,3 +955,24 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+.bg-dark {
+    background-color: #006400 !important;
+}
+
+.topbar {
+    padding: 2px 10px 2px 20px;
+    background: darkgreen !important;
+}
+
+.text-muted {
+    color: #ffff !important;
+}
+
+.text-primary {
+    color: #ffff !important;
+}
+
+.position-absolute {
+    position: static !important;
+}
