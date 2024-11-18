@@ -1063,3 +1063,9 @@ a.h4:hover {
     text-decoration: none;
     background-color: #198754 !important;
 }
+
+.navbar .navbar-toggler {
+    padding: 8px 15px;
+    color: #f7fafb;
+    background: darkgreen;
+}
