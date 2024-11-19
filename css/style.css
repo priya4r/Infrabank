@@ -1055,7 +1055,7 @@ a.h4:hover {
     }
 
     .bg-light {
-    background-color: #1987542e !important;
+   background-color: #1987542e !important;
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -1068,4 +1068,98 @@ a.h4:hover {
     padding: 8px 15px;
     color: #f7fafb;
     background: darkgreen;
+}
+
+.position-absolute.bg-dark {
+    background-color: #ffff !important;
+}
+
+@media (max-width: 768px) {
+input#search-bar {
+    margin: 0 auto;
+    width: 90% !important;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    position: relative;
+    top: 30px !important;
+}
+/*a.btn.btn-primary.rounded-pill.text-white.py-2.px-4.ms-2.flex-wrap.flex-sm-shrink-0 {
+    position: relative;
+    right: 60%;
+    top: 50px;
+    width: 30%;
+   display:none;
+}*/
+.search-container {
+    width: 490px;
+    /*display: none !important*/;
+    margin: 0 auto;
+}
+.search-icon {
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 75px;
+    top: -30px !important;
+        right: 0 !important;
+}
+.search-container {
+    width: 350px !important;
+    display: block;
+    margin: 0 auto;
+}
+}
+
+@media(min-width:992px){
+.d-flex.align-items-center.flex-nowrap.pt-xl-0 {
+    /* justify-content: left; */
+    position: relative;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        position: relative;
+        right: 60%;
+    }
+    input#search-bar {
+    margin: 0 auto;
+    width: 80% !important;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    position: relative;
+    top: 12px;
+}
+.search-icon {
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 75px;
+   top: -4px !important;
+    right: 87px !important;
+}
+.search-container {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+    /* margin-top: 20px; */
+}
+}
+
+.container.px-0 {
+    border-top: 1px solid #0f5132;
+}
+
+input#search-bar {
+    border: 1px solid #0f5132 !important;
+}
+
+.project-content.bg-light.rounded.p-4 {
+    background-color: #f7fafbe6 !important;
 }
