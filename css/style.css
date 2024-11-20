@@ -1054,10 +1054,10 @@ a.h4:hover {
     box-shadow: 0 0 0 .25rem #19875470;
     }
 
-    .bg-light {
+    /*.bg-light {
    background-color: #1987542e !important;
 }
-
+*/
 .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
@@ -1161,5 +1161,5 @@ input#search-bar {
 }
 
 .project-content.bg-light.rounded.p-4 {
-    background-color: #f7fafbe6 !important;
+    background-color: #f7fafb !important;
 }
