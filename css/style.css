@@ -940,7 +940,7 @@
 /*** Footer Start ***/
 .footer {
     /*background: var(--bs-dark);*/
-    background: darkgreen;
+    background: #0f5132;;
 }
 .footer .footer-item a {
     line-height: 35px;
@@ -980,7 +980,7 @@
 .copyright {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     /*background: var(--bs-dark) !important;*/
-    background: darkgreen !important;
+    background: #0f5132 !important;
 }
 /*** copyright end ***/
 
@@ -990,7 +990,7 @@
 
 .topbar {
     padding: 2px 10px 2px 20px;
-    background: darkgreen !important;
+   background: #0f5132 !important;
 }
 
 .text-muted {
@@ -1190,6 +1190,10 @@ p.mb-5.fs-5 {
 .container.px-0 nav.navbar.navbar-expand-lg.navbar-dark.bg-white.py-3.px-4 {
     background-color: #00800036 !important;
    }
+
+   .team-content.bg-dark.text-center.rounded-bottom.p-4 {
+    background-color: #0f5132 !important;
+}
 
 @media(min-width:992px){
 .d-flex.align-items-center.flex-nowrap.pt-xl-0 {
